@@ -42,7 +42,7 @@ jobs:
         make BOARD=bl702_debugger APP_DIR=../app APP=usb2uartjtag
         make BOARD=bl702_debugger_dualuart APP_DIR=../app APP=usb2dualuart
     - name: Archive firmware
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: sipeed_rv_debuger_plus_firmware
         path: |
