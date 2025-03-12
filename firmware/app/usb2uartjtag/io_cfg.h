@@ -38,8 +38,8 @@
 #define TDO_PIN			GPIO_PIN_9
 
 //UART0 for debug
-#define UART0_TXD_PIN	GPIO_PIN_14
-#define UART0_RXD_PIN	GPIO_PIN_23
+#define UART0_TXD_PIN	GPIO_PIN_26
+#define UART0_RXD_PIN	GPIO_PIN_24
 
 
 #endif
