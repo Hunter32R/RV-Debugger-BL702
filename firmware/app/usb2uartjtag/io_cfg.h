@@ -23,10 +23,10 @@
 #ifndef _IO_CFG_H
 #define _IO_CFG_H
  
-#define UART_TXD_PIN	GPIO_PIN_14
-#define UART_RXD_PIN	GPIO_PIN_15
-#define UART_DTR_PIN	GPIO_PIN_27
-#define UART_RTS_PIN	GPIO_PIN_25
+#define UART_TXD_PIN	GPIO_PIN_27
+#define UART_RXD_PIN	GPIO_PIN_25
+#define UART_DTR_PIN	GPIO_PIN_14
+#define UART_RTS_PIN	GPIO_PIN_15
 #define UART_CTS_PIN	GPIO_PIN_17
 
 #define LED0_PIN		GPIO_PIN_28
@@ -39,7 +39,7 @@
 
 //UART0 for debug
 #define UART0_TXD_PIN	GPIO_PIN_26
-#define UART0_RXD_PIN	GPIO_PIN_24
+#define UART0_RXD_PIN	GPIO_PIN_23
 
 
 #endif
