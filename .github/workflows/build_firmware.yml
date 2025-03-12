@@ -39,6 +39,7 @@ jobs:
         git submodule update --init
         cd firmware/bl_mcu_sdk
         PATH="/opt/riscv64-unknown-elf/bin:$PATH"
+        make clean
         make BOARD=bl702_debugger APP_DIR=../app APP=usb2uartjtag
         make BOARD=bl702_debugger_dualuart APP_DIR=../app APP=usb2dualuart
     - name: Archive firmware
