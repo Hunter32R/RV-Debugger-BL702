@@ -1,6 +1,7 @@
 name: Debugger Firmware CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
     paths: 
